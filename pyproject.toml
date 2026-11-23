@@ -1,0 +1,23 @@
+[project]
+name = "math168-final"
+version = "0.1.0"
+description = "classifying research fields from the OpenAlex citation-author network"
+authors = [{name="giyushino", email="allanzhang440@gmail.com" }]
+
+requires-python = "==3.14.*"
+keywords = ["networks", "openalex", "gnn", "classification"]
+
+dependencies = [
+    "pyalex",
+    "requests",
+    "pyarrow",
+    "numpy==2.4.6",
+    "scipy",
+    "pandas",
+    "networkx",
+    "scikit-learn",
+    "torch==2.10",
+    "torch-geometric",
+    "matplotlib",
+    "ipykernel",
+]
